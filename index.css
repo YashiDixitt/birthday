@@ -21,7 +21,39 @@
     color: rgb(15, 15, 15);  
 }
 .container3{
-   margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(179, 195, 209);
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top: 40px;
+    background-color: rgb(186, 163, 230);
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(250, 252, 253);
+}
+#audio1{
+    display: flex;
+    justify-content: center;
+}
+#audio2{
+    display: flex;
+    justify-content: center;
+}
+#vidio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 #p1{
     margin: 20px ;
